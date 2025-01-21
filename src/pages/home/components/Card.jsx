@@ -2,6 +2,7 @@ import "../css/Card.css";
 import { emojiApi } from "../api/homeApi";
 import { useEffect, useState } from "react";
 
+
 export function Card({
   type = "",
   point = 0,

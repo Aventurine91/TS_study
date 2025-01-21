@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Cards, { Card } from "./components/Card";
+import Cards, { Card } from "./components/Cards";
 import Loading from "../../shared/components/Loading";
 import Layout, { WhiteContainer } from "../../shared/components/Layout";
 import SearchBox from "./components/Search";
@@ -7,6 +7,7 @@ import "./css/home.css";
 import { getLatestStudyApi, getStudyListApi, emojiApi } from "./api/homeApi";
 import { setCookie } from "../../shared/hook/hook";
 import { useNavigate } from "react-router-dom";
+
 
 export default function Home() {
   const page = 1;
